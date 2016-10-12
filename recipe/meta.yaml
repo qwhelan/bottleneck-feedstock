@@ -7,7 +7,7 @@ package:
 source:
   fn: Bottleneck-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/B/Bottleneck/Bottleneck-{{ version }}.tar.gz
-  md5: 380fa6f275bd24f27e7cf0e0d752f5d2
+  sha256: 8d9b7ad4fadf9648acc924a6ee522c7cb5b474e75faaad9d90dfd55e2805b495
 
 build:
   number: 0
