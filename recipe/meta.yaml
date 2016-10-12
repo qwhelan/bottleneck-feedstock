@@ -1,4 +1,4 @@
-{% set version="1.0.0" %}
+{% set version = "1.0.0" %}
 
 package:
   name: bottleneck
@@ -16,15 +16,17 @@ build:
 requirements:
   build:
     - python
-    - numpy    x.x
+    - numpy x.x
     - setuptools
+
   run:
     - python
-    - numpy    x.x
+    - numpy x.x
 
 test:
   requires:
     - nose
+
   imports:
     - bottleneck
     - bottleneck.slow
@@ -34,6 +36,7 @@ test:
     - bottleneck.nonreduce
     - bottleneck.nonreduce_axis
     - bottleneck.move
+
   commands:
     - python -c "import bottleneck; bottleneck.test()"
 
