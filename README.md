@@ -3,7 +3,7 @@ About bottleneck
 
 Home: http://berkeleyanalytics.com/bottleneck
 
-Package license: Simplified BSD
+Package license: BSD 2-Clause
 
 Feedstock license: BSD 3-Clause
 
