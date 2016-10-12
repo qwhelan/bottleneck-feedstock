@@ -1,4 +1,4 @@
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: bottleneck
@@ -7,10 +7,10 @@ package:
 source:
   fn: Bottleneck-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/B/Bottleneck/Bottleneck-{{ version }}.tar.gz
-  sha256: 8d9b7ad4fadf9648acc924a6ee522c7cb5b474e75faaad9d90dfd55e2805b495
+  sha256: c3a52b843509bd8d9ef240f0ce2f3e57d05277f85c3239196e3d8979fe5d33de
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
