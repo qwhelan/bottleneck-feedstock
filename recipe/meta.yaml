@@ -31,7 +31,6 @@ test:
     - bottleneck
     - bottleneck.slow
     - bottleneck.tests
-    - bottleneck.src 
     - bottleneck.reduce
     - bottleneck.nonreduce
     - bottleneck.nonreduce_axis
