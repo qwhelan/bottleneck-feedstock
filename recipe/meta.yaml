@@ -16,8 +16,8 @@ build:
 requirements:
   build:
     - python
-    - numpy x.x
     - setuptools
+    - numpy x.x
 
   run:
     - python
