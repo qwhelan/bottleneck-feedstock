@@ -1,4 +1,4 @@
-{% set version="1.0.0" %}
+{% set version = "1.0.0" %}
 
 package:
   name: bottleneck
@@ -7,39 +7,42 @@ package:
 source:
   fn: Bottleneck-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/B/Bottleneck/Bottleneck-{{ version }}.tar.gz
-  md5: 380fa6f275bd24f27e7cf0e0d752f5d2
+  sha256: 8d9b7ad4fadf9648acc924a6ee522c7cb5b474e75faaad9d90dfd55e2805b495
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
   build:
+    - toolchain
     - python
-    - numpy    x.x
     - setuptools
+    - numpy x.x
+
   run:
     - python
-    - numpy    x.x
+    - numpy x.x
 
 test:
   requires:
     - nose
+
   imports:
     - bottleneck
     - bottleneck.slow
     - bottleneck.tests
-    - bottleneck.src 
     - bottleneck.reduce
     - bottleneck.nonreduce
     - bottleneck.nonreduce_axis
     - bottleneck.move
+
   commands:
     - python -c "import bottleneck; bottleneck.test()"
 
 about:
   home: http://berkeleyanalytics.com/bottleneck
-  license: Simplified BSD
+  license: BSD 2-Clause
   license_family: BSD
   license_file: bottleneck/LICENSE
   summary: Fast NumPy array functions written in Cython.
