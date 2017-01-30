@@ -13,6 +13,18 @@ Bottleneck is a collection of fast NumPy array functions written in
 Cython.
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/bottleneck-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/bottleneck-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/bottleneck-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/bottleneck-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/bottleneck-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/bottleneck-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/bottleneck/badges/version.svg)](https://anaconda.org/conda-forge/bottleneck)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/bottleneck/badges/downloads.svg)](https://anaconda.org/conda-forge/bottleneck)
+
 Installing bottleneck
 =====================
 
@@ -33,7 +45,6 @@ It is possible to list all of the versions of `bottleneck` available on your pla
 ```
 conda search bottleneck --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -69,18 +80,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/bottleneck-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/bottleneck-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/bottleneck-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/bottleneck-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/bottleneck-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/bottleneck-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/bottleneck/badges/version.svg)](https://anaconda.org/conda-forge/bottleneck)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/bottleneck/badges/downloads.svg)](https://anaconda.org/conda-forge/bottleneck)
 
 
 Updating bottleneck-feedstock
