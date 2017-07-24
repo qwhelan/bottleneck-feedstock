@@ -16,15 +16,17 @@ build:
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
-  build:
-    - toolchain
+  host:
     - python
     - setuptools
-    - numpy x.x
+    - numpy
+
+  build:
+    - {{ compiler('c') }}
 
   run:
     - python
-    - numpy x.x
+    - {{ pin_compatible('numpy') }}
 
 test:
   requires:
