@@ -40,7 +40,7 @@ test:
     - conda inspect objects -p $PREFIX $PKG_NAME  # [osx]
 
 about:
-  home: http://berkeleyanalytics.com/bottleneck
+  home: https://github.com/kwgoodman/bottleneck
   license: BSD 2-Clause
   license_family: BSD
   license_file: bottleneck/LICENSE
