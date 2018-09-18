@@ -1,7 +1,7 @@
 About bottleneck
 ================
 
-Home: http://berkeleyanalytics.com/bottleneck
+Home: https://github.com/kwgoodman/bottleneck
 
 Package license: BSD 2-Clause
 
