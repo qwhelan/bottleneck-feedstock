@@ -1,7 +1,7 @@
 About bottleneck
 ================
 
-Home: https://github.com/kwgoodman/bottleneck
+Home: https://github.com/pydata/bottleneck
 
 Package license: BSD 2-Clause
 
