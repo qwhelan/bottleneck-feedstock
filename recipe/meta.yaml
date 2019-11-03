@@ -40,7 +40,7 @@ test:
     - conda inspect objects -p $PREFIX $PKG_NAME  # [osx]
 
 about:
-  home: https://github.com/kwgoodman/bottleneck
+  home: https://github.com/pydata/bottleneck
   license: BSD 2-Clause
   license_family: BSD
   license_file: bottleneck/LICENSE
@@ -48,8 +48,8 @@ about:
   description: |
     Bottleneck is a collection of fast NumPy array functions written in
     Cython.
-  doc_url: http://berkeleyanalytics.com/bottleneck
-  dev_url: https://github.com/kwgoodman/bottleneck
+  doc_url: http://bottleneck.readthedocs.io
+  dev_url: https://github.com/pydata/bottleneck
 
 extra:
   recipe-maintainers:
