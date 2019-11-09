@@ -223,5 +223,6 @@ Feedstock Maintainers
 * [@jakirkham](https://github.com/jakirkham/)
 * [@msarahan](https://github.com/msarahan/)
 * [@ocefpaf](https://github.com/ocefpaf/)
+* [@qwhelan](https://github.com/qwhelan/)
 * [@wesm](https://github.com/wesm/)
 
